@@ -7,8 +7,8 @@ import processing.core.PVector;
 
 public class Player extends GameObject implements KeyInput{
 	public PVector size = new PVector(12,12);
-	public int fillColour;
-	public int strokeColour;
+	public int fillColour = 255;
+	public int strokeColour = parent.color(255);
 	public Player(PApplet p) {
 	super(p);
 	}
@@ -46,6 +46,11 @@ public class Player extends GameObject implements KeyInput{
 
 	@Override
 	public void mouseClicked(int mouseX, int mouseY, int mouseButton) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void start() {
 		// TODO Auto-generated method stub
 		
 	}

@@ -17,6 +17,13 @@ public abstract class GameObject extends ProcessingEntity{
 	public void render() {
 		
 	}
+	public void start() {
+		
+		
+	}
+	public void update() {
+		
+	}
 	
 	
 	
