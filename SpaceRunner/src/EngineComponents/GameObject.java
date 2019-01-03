@@ -6,9 +6,9 @@ public abstract class GameObject {
 
 	//Transform
 	
-	//Name
-	
-	//Tag
+	public String name;
+	public String ID;
+	public String tag;
 	
 	
 	
